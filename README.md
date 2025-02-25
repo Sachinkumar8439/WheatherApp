@@ -12,6 +12,11 @@
 
 **MENTOR NAME**: NEELA SANTHOSH KUMAR
 
+the image shown below is the home page when you run the app and open in tab: 
+- login and signin from here with full authentication.
+- on entering the wrong data ,it show status..
+![Imag](https://github.com/user-attachments/assets/c70613b2-e175-40f7-9ffb-09008f340020)
+
 
 WEATHER APP
 
