@@ -1,0 +1,125 @@
+/*  <div class="container">
+        <h1 class="form-main-heading">Log in</h1>
+        <p class="form-main-para">Enter the credential to login</p>
+        <form class="login form" action="/login" method="post">
+            <input class="input-feilds" type="text" name="name" placeholder="Enter Name">
+            <input class="input-feilds" type="text" name="password" placeholder="Enter password">
+            <p class="description">password is wrong</p>
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </div>
+    */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --whitecolor:white;
+  --blackcolor:black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(9, 82, 82);
+    /* height:fit-content; */
+  }
+  
+  .container {
+    /* border: 2px solid black; */
+    max-width: 800px;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color:rgba(12, 22, 29, 0.8);
+    padding-bottom: 40px;
+    /* background: transparent; */
+    /* box-shadow: 0.1px 0.1px rgba(0, 0, 0, 0.5); */
+  }
+
+  .container img{
+  
+  }
+
+  .form-main-heading{
+    margin: 5px;
+    color:var(--whitecolor) ;
+   
+  }
+  .form-main-para{
+    margin: 5px;
+    color: var(--whitecolor);
+   
+  }
+
+  .form{
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* height: 50%; */
+    padding: 20px;
+    background-color:rgba(1, 11, 19, 0.8)
+  }
+
+  .input-feilds{
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: var(--whitecolor);
+    background: none;
+  }
+
+  .input-feilds::placeholder{
+    color: var(--whitecolor);
+  }
+  .description{
+    color: red;
+    height: 13px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    text-decoration: underline;
+  }
+
+  .btn{
+    width:fit-content;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 250, 250,);
+    color:var(--blackcolor);
+    margin: 10px;
+  }
+  .btn:hover{
+    background-color:rgba(252, 252, 252, 0.5) ;
+  }
+  .redirects{
+    display: flex;
+    align-items: center;
+  }
+
+  .redirects p{
+    font-size: 15px;
+    color: var(--whitecolor);
+  }
+  .redirects a{
+    color: blueviolet;
+
+  }
+
+  @media (max-width: 500px) {
+
+    
+  }

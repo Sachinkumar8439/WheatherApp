@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigup wheather</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images\wheathericon.png" alt="" width="60px">
+        <h1 class="form-main-heading">Sign Up</h1>
+        <p class="form-main-para">Enter your details to signup</p>
+        <form class="signup form" action="/signup" method="post">
+            <input class="input-feilds" type="text" name="name" placeholder="Enter Name" required>
+            <input class="input-feilds" type="email" name="email" placeholder="Enter email" required>
+            <input class="input-feilds" type="password" name="password" placeholder="Enter password" required>
+            <p class="description">
+                <% if (typeof message !=='undefined') { %>
+                    <%=message%>
+                   <% } %>
+            </p>
+            <button class="btn" type="submit">Register</button>
+            <div class="redirects">
+                <p>allready have an account?</p>
+                <a href="/">login</a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

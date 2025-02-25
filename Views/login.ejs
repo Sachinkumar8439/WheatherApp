@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login wheather</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images\wheathericon.png" alt="" width="60px">
+        <h1 class="form-main-heading">Log in</h1>
+        <p class="form-main-para">Enter the credential to login</p>
+        <form class="login form" action="/login" method="post">
+            <input class="input-feilds" type="email" name="email" placeholder="Enter email" required>
+            <input class="input-feilds" type="text" name="password" placeholder="Enter password" required>
+            <p class="description">
+                <% if (typeof message !=='undefined') { %>
+                 <%=message%>
+                <% } %>
+            </p>
+            <button class="btn" type="submit">Login</button>
+            <div class="redirects">
+                <p>dont have an account?</p>
+                <a href="/signup">SignUp</a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
