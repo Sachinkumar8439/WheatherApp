@@ -18,6 +18,10 @@ the image shown below is the home page when you run the app and open in tab:
 ![Imag](https://github.com/user-attachments/assets/c70613b2-e175-40f7-9ffb-09008f340020)
 
 
+when loged in smoothly and enter a city , fetch the data from the wheatherAPI 
+<img src="https://github.com/user-attachments/assets/cfa5a713-6915-4daa-9d52-930c0643094c" alt="Weather App" width="200">
+
+
 WEATHER APP
 
 DESCRIPTION:
